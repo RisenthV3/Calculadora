@@ -368,176 +368,163 @@ public class AccessC extends javax.swing.JFrame {
     }//GEN-LAST:event_TwoButtonActionPerformed
 
     private void ThreeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ThreeButtonActionPerformed
-        
-        
-        
-        
-            String confir = CalculatorField.getText();
+               
+        String confir = CalculatorField.getText();
 
-            if((confir.equals("0")) || finish){
+        if((confir.equals("0")) || finish){
             
-                finish = false;
+            finish = false;
 
-                this.CalculatorField.setText("3");
+            this.CalculatorField.setText("3");
 
-            }
-            else{
+        }
+        else{
 
-                if(CalculatorField.getText().length() <= 7){
+            if(CalculatorField.getText().length() <= 7){
 
-                    this.CalculatorField.setText(this.CalculatorField.getText()+"3");
-
-                }
+                this.CalculatorField.setText(this.CalculatorField.getText()+"3");
 
             }
+
+        }
         
     }//GEN-LAST:event_ThreeButtonActionPerformed
 
     private void FourButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FourButtonActionPerformed
-        
-        
-        
-            String confir = CalculatorField.getText();
+          
+        String confir = CalculatorField.getText();
 
-            if((confir.equals("0")) || finish){
+        if((confir.equals("0")) || finish){
             
-                finish = false;
+            finish = false;
 
-                this.CalculatorField.setText("4");
+            this.CalculatorField.setText("4");
 
-            }
-            else{
+        }
+        else{
 
-                if(CalculatorField.getText().length() <= 7){
+            if(CalculatorField.getText().length() <= 7){
 
-                    this.CalculatorField.setText(this.CalculatorField.getText()+"4");
-
-                }
+                this.CalculatorField.setText(this.CalculatorField.getText()+"4");
 
             }
+
+        }
         
     }//GEN-LAST:event_FourButtonActionPerformed
 
     private void FiveButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FiveButtonActionPerformed
-        
-        
-        
-            String confir = CalculatorField.getText();
+                
+        String confir = CalculatorField.getText();
 
-            if((confir.equals("0")) || finish){
+        if((confir.equals("0")) || finish){
             
-                finish = false;
+            finish = false;
 
-                this.CalculatorField.setText("5");
+            this.CalculatorField.setText("5");
 
-            }
-            else{
+        }
+        else{
 
-                if(CalculatorField.getText().length() <= 7){
+            if(CalculatorField.getText().length() <= 7){
 
-                    this.CalculatorField.setText(this.CalculatorField.getText()+"5");
-
-                }
+                this.CalculatorField.setText(this.CalculatorField.getText()+"5");
 
             }
+
+        }
         
     }//GEN-LAST:event_FiveButtonActionPerformed
 
     private void SixButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SixButtonActionPerformed
-        
-        
-            String confir = CalculatorField.getText();
+                
+        String confir = CalculatorField.getText();
 
-            if((confir.equals("0")) || finish){
+        if((confir.equals("0")) || finish){
             
-                finish = false;
+            finish = false;
 
-                this.CalculatorField.setText("6");
+            this.CalculatorField.setText("6");
 
-            }
-            else{
+        }
+        else{
 
-                if(CalculatorField.getText().length() <= 7){
+            if(CalculatorField.getText().length() <= 7){
 
-                    this.CalculatorField.setText(this.CalculatorField.getText()+"6");
-
-                }
+                this.CalculatorField.setText(this.CalculatorField.getText()+"6");
 
             }
+
+        }
         
     }//GEN-LAST:event_SixButtonActionPerformed
 
     private void SevenButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SevenButtonActionPerformed
-        
-        
-        
-            String confir = CalculatorField.getText();
+                
+        String confir = CalculatorField.getText();
 
-            if((confir.equals("0")) || finish){
+        if((confir.equals("0")) || finish){
             
-                finish = false;
+            finish = false;
 
-                this.CalculatorField.setText("7");
+            this.CalculatorField.setText("7");
 
-            }
-            else{
+        }
+        else{
 
-                if(CalculatorField.getText().length() <= 7){
+            if(CalculatorField.getText().length() <= 7){
 
-                    this.CalculatorField.setText(this.CalculatorField.getText()+"7");
-
-                }
+                this.CalculatorField.setText(this.CalculatorField.getText()+"7");
 
             }
+
+        }
         
     }//GEN-LAST:event_SevenButtonActionPerformed
 
     private void EightButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EightButtonActionPerformed
-        
-        
-            String confir = CalculatorField.getText();
+                
+        String confir = CalculatorField.getText();
 
-            if((confir.equals("0")) || finish){
+        if((confir.equals("0")) || finish){
             
-                finish = false;
+            finish = false;
 
-                this.CalculatorField.setText("8");
+            this.CalculatorField.setText("8");
 
-            }
-            else{
+        }
+        else{
 
-                if(CalculatorField.getText().length() <= 7){
+            if(CalculatorField.getText().length() <= 7){
 
-                    this.CalculatorField.setText(this.CalculatorField.getText()+"8");
-
-                }
+                this.CalculatorField.setText(this.CalculatorField.getText()+"8");
 
             }
+
+        }
         
     }//GEN-LAST:event_EightButtonActionPerformed
 
     private void NineButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NineButtonActionPerformed
-        
-        
-        
-            String confir = CalculatorField.getText();
+                
+        String confir = CalculatorField.getText();
 
-            if((confir.equals("0")) || finish){
+        if((confir.equals("0")) || finish){
             
-                finish = false;
+            finish = false;
 
-                this.CalculatorField.setText("9");
+            this.CalculatorField.setText("9");
 
-            }
-            else{
+        }
+        else{
 
-                if(CalculatorField.getText().length() <= 7){
+            if(CalculatorField.getText().length() <= 7){
 
-                    this.CalculatorField.setText(this.CalculatorField.getText()+"9");
-
-                }
+                this.CalculatorField.setText(this.CalculatorField.getText()+"9");
 
             }
+
+        }
         
     }//GEN-LAST:event_NineButtonActionPerformed
 
@@ -550,17 +537,17 @@ public class AccessC extends javax.swing.JFrame {
             
         } 
         
-            String confir = CalculatorField.getText();
+        String confir = CalculatorField.getText();
 
-            if(!confir.equals("0")){
+        if(!confir.equals("0")){
 
-                if(CalculatorField.getText().length() <= 7){
+            if(CalculatorField.getText().length() <= 7){
 
-                    this.CalculatorField.setText(this.CalculatorField.getText()+"0");
+                this.CalculatorField.setText(this.CalculatorField.getText()+"0");
 
-                }            
+            }            
 
-            }
+        }
         
     }//GEN-LAST:event_ZeroButtonActionPerformed
 
@@ -573,17 +560,17 @@ public class AccessC extends javax.swing.JFrame {
             
         }
             
-            String confir = CalculatorField.getText();
+        String confir = CalculatorField.getText();
 
-            if(!confir.equals("0")){
+        if(!confir.equals("0")){
 
-                if(CalculatorField.getText().length() <= 5){
+            if(CalculatorField.getText().length() <= 5){
 
-                    this.CalculatorField.setText(this.CalculatorField.getText()+"000");
-
-                }
+                this.CalculatorField.setText(this.CalculatorField.getText()+"000");
 
             }
+
+        }
         
     }//GEN-LAST:event_TripleZeroButtonActionPerformed
 
@@ -597,42 +584,40 @@ public class AccessC extends javax.swing.JFrame {
             
         }
         
-            String confir = CalculatorField.getText();
+        String confir = CalculatorField.getText();
 
-            if(!confir.contains(".")){
+        if(!confir.contains(".")){
 
-                if(CalculatorField.getText().length() <= 6){
+            if(CalculatorField.getText().length() <= 6){
 
-                    this.CalculatorField.setText(this.CalculatorField.getText()+".");
-
-                }
+                this.CalculatorField.setText(this.CalculatorField.getText()+".");
 
             }
+
+        }
         
     }//GEN-LAST:event_DotButtonActionPerformed
 
     private void DeleteButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DeleteButtonActionPerformed
-        
-        
-        
-            String confir = CalculatorField.getText();
+               
+        String confir = CalculatorField.getText();
 
-            if(!confir.equals("0")){
+        if(!confir.equals("0")){
 
-                StringBuffer sb = new StringBuffer(confir);
+            StringBuffer sb = new StringBuffer(confir);
 
-                sb.deleteCharAt(sb.length()-1);
+            sb.deleteCharAt(sb.length()-1);
 
-                confir = sb.toString();
+            confir = sb.toString();
 
-                CalculatorField.setText(confir);
+            CalculatorField.setText(confir);
 
-                if(CalculatorField.getText().equals("")){
+            if(CalculatorField.getText().equals("")){
 
-                    CalculatorField.setText("0");
+                CalculatorField.setText("0");
 
-                }
             }
+        }
         
         
     }//GEN-LAST:event_DeleteButtonActionPerformed
@@ -657,11 +642,11 @@ public class AccessC extends javax.swing.JFrame {
 
             switch(this.operador){
 
-            case("+"):
+                case("+"):
 
-                this.CalculatorField.setText(Double.toString(this.numero1+this.numero2));
+                    this.CalculatorField.setText(Double.toString(this.numero1+this.numero2));
                 
-                if((CalculatorField.getText().length() > 8) && ((this.numero1/this.numero2) < 99999999) && ((this.numero1/this.numero2) > 0.000001)){
+                    if((CalculatorField.getText().length() > 8) && ((this.numero1/this.numero2) < 99999999) && ((this.numero1/this.numero2) > 0.000001)){
 
                         while(CalculatorField.getText().length() > 8){
 
@@ -677,7 +662,7 @@ public class AccessC extends javax.swing.JFrame {
 
                     }
 
-                 }
+                }
                 
                 break;               
 
@@ -703,7 +688,7 @@ public class AccessC extends javax.swing.JFrame {
 
                     }
                     
-                    break;
+                break;
 
                 case("*"):
 
@@ -727,9 +712,9 @@ public class AccessC extends javax.swing.JFrame {
 
                     }
                     
-                    break;
+                break;
 
-                 case("/"):
+                case("/"):
 
                     this.CalculatorField.setText(Double.toString(this.numero1/this.numero2));
                     
@@ -751,10 +736,10 @@ public class AccessC extends javax.swing.JFrame {
 
                     }
 
-                    break;
+                break;
 
-                }
-            }        
+            }
+        }        
                 
     }//GEN-LAST:event_EqualButtonActionPerformed
 
